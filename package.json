@@ -1,0 +1,26 @@
+{
+  "name": "rectangle",
+  "version": "1.0.0",
+  "description": "矩形计算器",
+  "main": "rectangle.js",
+  "dependencies": {},
+  "devDependencies": {
+    "grunt": "^1.0.3",
+    "grunt-contrib-csslint": "^2.0.0",
+    "grunt-eslint": "^21.0.0",
+    "grunt-htmlhint": "^0.9.13"
+  },
+  "scripts": {
+    "test": "grunt lint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wan2banwangcen/rectangle.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wan2banwangcen/rectangle/issues"
+  },
+  "homepage": "https://github.com/wan2banwangcen/rectangle#readme"
+}

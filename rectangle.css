@@ -12,6 +12,10 @@ input,label{
   padding-left: 5px;
 }
 
+span{
+  color:red;
+}
+
 #calculate{
   
   margin-left:63px;

@@ -1,4 +1,4 @@
-div{
+#main{
 
   font-size: 1.1em;
   margin: 50px auto;
@@ -20,4 +20,22 @@ span{
   
   margin-left:63px;
   width:70px;
+}
+#width-validation{
+  color:red;
+  font-size:1em;
+  width:120px;
+  height:25px;
+  position:absolute;
+  right:440px;
+  top:117px;
+}
+#height-validation{
+  color:red;
+  font-size:1em;
+  width:120px;
+  height:25px;
+  position:absolute;
+  right:435px;
+  top:156px;
 }

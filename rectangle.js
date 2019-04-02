@@ -7,6 +7,29 @@ $(function(){
       $widthValidation = $('#width-validation'),
       $heightValidation = $('#height-validation'),
       $area = $('#area');
+  $width.keypress(function(e){
+    if(/[abcdf-zABCDF-Z`~!@#$%^&*()=_+[\]{}|;:'",<>/?\\]/.test(e.key)){
+      e.preventDefault();
+    }
+    if(e.key === '.'){
+      if(e.target === ''){
+        e.preventDefault();
+      }
+      if(e.target.value.indexOf('.') !== -1){
+        e.preventDefault();
+      } else{
+        if(e.target.selectionStart === 0){
+          e.preventDefault();
+        }
+      }
+    }
+  });
+  $height.keypress(function(e){
+    if(/[abcdf-zABCDF-Z`~!@#$%^&*()=_+[\]{}|;:'",<>/?\\]/.test(e.key)){
+      e.preventDefault();
+    }
+  });
+
   $width.focusout(function(){
     var result = valid($width.val());
     if(!result.isOK){
